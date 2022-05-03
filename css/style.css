@@ -4,11 +4,20 @@
 body{
     display: flex;
     justify-content: center;
-    margin-top: 15.6666666666666666666666666666666666666666666666666666666666rem;
+    margin-top: 15rem;
 }
+
 #progress {
     
     width: 350px;   
     height: 25px;
-    border: solid 1px black;
+    border: solid 20px rgb(171, 171, 171);
+    position: absolute;
+}
+
+#progressing{
+    width: 350px;   
+    height: 25px;
+    border: solid 20px rgb(21, 255, 0);    
+    position: relative;
 }
